@@ -62,10 +62,14 @@ LIMIT 5;
 ```
 ---
 Setup Instructions
-# 1. Create venv and install dependencies
+## 1. Create venv and install dependencies
+
 python -m venv venv
+
 venv\Scripts\activate
+
 pip install -r requirements.txt
 
-# 2. Run FastAPI server
+## 2. Run FastAPI server
+
 uvicorn api.main:app --reload
